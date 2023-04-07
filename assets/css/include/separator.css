@@ -1,0 +1,14 @@
+/* ---------------------------------- */
+/*         Separator component        */
+/* ---------------------------------- */
+.separator {
+  display: inline-flex;
+  gap: 10px;
+  margin: 0 auto;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}

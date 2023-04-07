@@ -1,0 +1,18 @@
+/* ---------------------------------- */
+/*               Outline              */
+/* ---------------------------------- */
+.outline-white {
+  outline: 1px solid var(--color-white);
+}
+.outline-light {
+  outline: 1px solid var(--color-light);
+}
+.outline-accent {
+  outline: 1px solid var(--color-accent);
+}
+.outline-warning {
+  outline: 1px solid var(--color-warning);
+}
+.outline-black {
+  outline: 1px solid var(--color-black);
+}

@@ -1,0 +1,42 @@
+/* ---------------------------------- */
+/*              Variables             */
+/* ---------------------------------- */
+:root {
+  /* ---------------------------------- */
+  /*                Color               */
+  /* ---------------------------------- */
+  --color-white: #fafafa;
+  --color-light: #ffffff;
+  --color-accent: #274c77;
+  --color-warning: #bb2649;
+  --color-black: #242423;
+  /* ---------------------------------- */
+  /*             Background             */
+  /* ---------------------------------- */
+  --background-color-white: var(--color-white);
+  --background-color-light: var(--color-light);
+  --background-color-accent: var(--color-accent);
+  --background-color-warning: var(--color-warning);
+  --background-color-black: var(--color-black);
+  /* ---------------------------------- */
+  /*               Spacing              */
+  /* ---------------------------------- */
+  --spacing-xs: 8px;
+  --spacing-sm: 10px;
+  --spacing-md: 20px;
+  --spacing-lg: 40px;
+  --spacing-xlg: 60px;
+  /* ---------------------------------- */
+  /*              Font Size             */
+  /* ---------------------------------- */
+  --font-size-xs: 8px;
+  --font-size-sm: 12px;
+  --font-size-md: 20px;
+  --font-size-lg: 24px;
+  --font-size-xlg: 48px;
+  /* ---------------------------------- */
+  /*             Font Family            */
+  /* ---------------------------------- */
+  --font-family-special: "Montserrat", sans-serif;
+  --font-family-body: "Roboto", sans-serif;
+}

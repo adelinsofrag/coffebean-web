@@ -1,0 +1,15 @@
+/* ---------------------------------- */
+/*        Fixed Chat component        */
+/* ---------------------------------- */
+.chat {
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  position: fixed;
+  bottom: 20px;
+  width: 50px;
+  right: 20px;
+  z-index: 99;
+}

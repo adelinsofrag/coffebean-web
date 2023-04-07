@@ -1,0 +1,21 @@
+/* ---------------------------------- */
+/*             Image size             */
+/* ---------------------------------- */
+.img-fluid {
+  height: auto;
+  width: 100%;
+}
+/* ---------------------------------- */
+/*         Partners grid image        */
+/* ---------------------------------- */
+.partners-grid {
+  width: 100%;
+  height: auto;
+}
+@media (min-width: 992px) {
+  .partners-grid {
+    width: 400px;
+    height: auto;
+    margin: auto;
+  }
+}

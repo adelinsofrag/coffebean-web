@@ -1,0 +1,127 @@
+/* ---------------------------------- */
+/*             Background             */
+/* ---------------------------------- */
+.bg-white {
+  background-color: var(--background-color-white);
+}
+.bg-light {
+  background-color: var(--background-color-light);
+}
+.bg-warning {
+  background-color: var(--background-color-warning);
+}
+.bg-accent {
+  background-color: var(--background-color-accent);
+}
+.bg-black {
+  background-color: var(--background-color-black);
+}
+/* ---------------------------------- */
+/*             Hover state            */
+/* ---------------------------------- */
+.bg-white-on-hover:hover {
+  transition: all 1.5s ease;
+  background-color: var(--background-color-white);
+}
+.bg-light-on-hover:hover {
+  transition: all 1.5s ease;
+  background-color: var(--background-color-light);
+}
+.bg-warning-on-hover:hover {
+  transition: all 1.5s ease;
+  background-color: var(--background-color-warning);
+}
+.bg-accent-on-hover:hover {
+  transition: all 1.5s ease;
+  background-color: var(--background-color-accent);
+}
+.bg-black-on-hover:hover {
+  transition: all 1.5s ease;
+  background-color: var(--background-color-black);
+}
+/* ---------------------------------- */
+/*         Background behavior        */
+/* ---------------------------------- */
+.bg-position-center {
+  background-position: center;
+}
+
+/* These are the main properties of a background definition */
+.bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 200px;
+  width: auto;
+}
+@media (min-width: 576px) {
+  .bg {
+    height: 700px;
+  }
+}
+@media (min-width: 992px) {
+  .bg {
+    height: 400px;
+  }
+}
+/* ---------------------------------- */
+/*          Background image          */
+/* ---------------------------------- */
+/* Use this in case you need an image and the asset wasn't provided yet */
+.placeholder {
+  background: url("./../../images/placeholder.png") no-repeat center;
+}
+
+/* Hero banner - used in the header */
+.bg-hero {
+  height: 90vh !important;
+  background-image: url("./../../images/herobanner.avif");
+  background-position: center;
+  box-shadow: unset;
+  border-radius: unset !important;
+}
+@media (min-width: 992px) {
+  .bg-hero {
+    background-position: top;
+    height: 95vh !important;
+  }
+}
+
+/* Images used across the app */
+.photo-1 {
+  background-image: url("./../../images/2.avif");
+}
+.photo-2 {
+  background-image: url("./../../images/photo-1582768772255-7fb8066357ce.avif");
+}
+.photo-3 {
+  background-image: url("./../../images/energy.avif ");
+}
+.photo-4 {
+  background-image: url("./../../images/photo-1604665772394-c5522c81e00b.avif");
+}
+.photo-5 {
+  background-image: url("./../../images/photo-1521302080334-4bebac2763a6.avif ");
+}
+.photo-6 {
+  background-image: url("./../../images/photo-1610219170948-60d096443dc1.avif");
+}
+.photo-7 {
+  background-image: url("./../../images/photo-1544787219-7f47ccb76574.avif");
+}
+.photo-8 {
+  background-image: url("./../../images/photo-1623035570668-a0f52a7d5640.avif");
+}
+.photo-9 {
+  background-image: url("./../../images/photo-1545319261-f3760f9dd64d.avif");
+}
+.photo-10 {
+  background-image: url("./../../images/photo-1574914629364-12e5ef9a6d6d.avif ");
+}
+.photo-11 {
+  background-image: url("./../../images/v60.avif");
+}
+.photo-12 {
+  background-image: url("./../../images/photo-1575430232936-f06cb6c9f4f4.avif");
+}

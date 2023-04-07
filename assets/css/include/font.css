@@ -1,0 +1,42 @@
+/* ---------------------------------- */
+/*            Google Fonts            */
+/* ---------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Roboto:wght@100;200;300;500&display=swap");
+/* ---------------------------------- */
+/*             Font family            */
+/* ---------------------------------- */
+.font-special {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  letter-spacing: -1px;
+}
+.font-body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 1.4;
+}
+/* ---------------------------------- */
+/*             Font weight            */
+/* ---------------------------------- */
+.bold {
+  font-weight: 500;
+}
+/* ---------------------------------- */
+/*              Font size             */
+/* ---------------------------------- */
+.font-size-xs {
+  font-size: 8px;
+}
+.font-size-sm {
+  font-size: 12px;
+}
+.font-size-md {
+  font-size: 16px;
+}
+.font-size-lg {
+  font-size: 20px;
+}
+.font-size-xlg {
+  font-size: 32px;
+}

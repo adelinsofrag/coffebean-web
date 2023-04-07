@@ -1,0 +1,41 @@
+/* ---------------------------------- */
+/*                Color               */
+/* ---------------------------------- */
+.color-white {
+  color: var(--color-white);
+}
+.color-light {
+  color: var(--color-light);
+}
+.color-warning {
+  color: var(--color-warning);
+}
+.color-accent {
+  color: var(--color-accent);
+}
+.color-black {
+  color: var(--color-black);
+}
+/* ---------------------------------- */
+/*             Hover state            */
+/* ---------------------------------- */
+.color-white-on-hover:hover {
+  transition: all 1.5s ease;
+  color: var(--color-white);
+}
+.color-light-on-hover:hover {
+  transition: all 1.5s ease;
+  color: var(--color-light);
+}
+.color-warning-on-hover:hover {
+  transition: all 1.5s ease;
+  color: var(--color-warning);
+}
+.color-accent-on-hover:hover {
+  transition: all 1.5s ease;
+  color: var(--color-accent);
+}
+.color-black-on-hover:hover {
+  transition: all 1.5s ease;
+  color: var(--color-black);
+}

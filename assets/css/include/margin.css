@@ -1,0 +1,108 @@
+/* ---------------------------------- */
+/*             Margin Auto            */
+/* ---------------------------------- */
+.m-auto {
+  margin: auto;
+}
+.mt-auto {
+  margin-top: auto;
+}
+.ml-auto {
+  margin-left: auto;
+}
+.mr-auto {
+  margin-right: auto;
+}
+.mb-auto {
+  margin-bottom: auto;
+}
+/* ---------------------------------- */
+/*            Margin X Axis           */
+/* ---------------------------------- */
+.mx-10 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.mx-20 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.mx-40 {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+/* ---------------------------------- */
+/*            Margin Y Axis           */
+/* ---------------------------------- */
+.my-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.my-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.my-40 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+/* ---------------------------------- */
+/*           Margin XY Axis           */
+/* ---------------------------------- */
+.m-10 {
+  margin: 10px;
+}
+.m-20 {
+  margin: 20px;
+}
+.m-40 {
+  margin: 40px;
+}
+/* ---------------------------------- */
+/*             Margin Top             */
+/* ---------------------------------- */
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-40 {
+  margin-top: 40px;
+}
+/* ---------------------------------- */
+/*            Margin Bottom           */
+/* ---------------------------------- */
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mb-40 {
+  margin-bottom: 40px;
+}
+/* ---------------------------------- */
+/*            Margin Right            */
+/* ---------------------------------- */
+.mr-10 {
+  margin-right: 10px;
+}
+.mr-20 {
+  margin-right: 20px;
+}
+.mr-40 {
+  margin-right: 40px;
+}
+/* ---------------------------------- */
+/*             Margin Left            */
+/* ---------------------------------- */
+.ml-10 {
+  margin-left: 10px;
+}
+.ml-20 {
+  margin-left: 20px;
+}
+.ml-40 {
+  margin-left: 40px;
+}

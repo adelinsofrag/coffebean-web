@@ -1,0 +1,27 @@
+/* ---------------------------------- */
+/*             Navigation             */
+/* ---------------------------------- */
+.nav-wrapper {
+  height: 80px;
+  position: sticky;
+  top: 0; /* required */
+  z-index: 1;
+}
+@media (min-width: 576px) {
+  .nav-wrapper {
+    height: 70px;
+  }
+}
+@media (min-width: 992px) {
+  .nav-wrapper {
+    height: 70px;
+  }
+}
+.mobile-nav-list {
+  position: absolute;
+  top: 90%; /* because there's a 10px border radius, move upper to hide that */
+  right: 0;
+  flex-wrap: wrap;
+  align-items: center;
+  border-radius: 0 0 10px 10px;
+}

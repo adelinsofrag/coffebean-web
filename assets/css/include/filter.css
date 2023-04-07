@@ -1,0 +1,6 @@
+/* ---------------------------------- */
+/*           Filter effects           */
+/* ---------------------------------- */
+.backdrop-filter {
+  backdrop-filter: blur(2px);
+}
