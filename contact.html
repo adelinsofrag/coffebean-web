@@ -55,23 +55,15 @@
     </div>
     <!-- End of Top Navigation - Sticky component -->
 
-    <!-- bg banner with title -->
-    <header class="bg-hero bg bg-position-center">
-      <div class="h-100 d-flex">
-        <div class="m-auto card-shadow px-40 py-20 backdrop-filter">
-          <h1 class="color-accent text-center font-size-lg bold">CONTACT</h1>
-          <h2 class="color-accent text-center font-size-xlg font-special bold">
-            with <span class="color-warning uppercase">fresh</span> beans
-          </h2>
-        </div>
-      </div>
-    </header>
-    <!-- End of bg banner with title -->
-
     <!-- Main -->
     <main class="container">
-      <div class="py-40 d-flex gap-40">
-        <form class="d-flex flex-col m-auto justify-center gap-20">
+      <div class="container-fluid py-5 col-md-5 g-3 row m-auto">
+        <p class="fs-4">
+          Contact us to learn more about our coffee bean shop and our delicious selection of coffee
+          beans from around the world. Our team is happy to assist with any questions or inquiries
+          you may have.
+        </p>
+        <form class="row g-3 justify-center">
           <div class="form-group-lg">
             <label for="full-name">Full Name</label>
             <input type="text" class="form-control" id="full-name" placeholder="e.g. John Doe" />
@@ -97,7 +89,9 @@
             <label for="your-message">Message</label>
             <textarea class="form-control" id="your-message" rows="3"></textarea>
           </div>
-          <button type="submit" class="btn btn-lg font-size-md btn-outline-primary color-black">Submit</button>
+          <button type="submit" class="btn btn-lg font-size-md btn-outline-dark color-black">
+            Submit
+          </button>
         </form>
       </div>
     </main>
@@ -105,25 +99,36 @@
 
     <!-- Footer -->
     <footer>
-      <div class="section bg-black color-light py-40">
-        <div class="max-width m-auto d-flex flex-col gap-20 font-size-md color-light">
-          <h4 class="font-size-xlg color-light font-special">Want to know more?</h4>
-          <a href="/"><h5 class="font-size-lg color-white font-special bold">Get in touch</h5></a>
-          <p class="font-size-sm">Copyright © 2023 CoffeeBean, Inc. All rights reserved.</p>
-          <p>
-            I've brewed my vision and crafted my idea from the comfort of my own home, and now I'm
-            ready to serve it to the world with a steaming cup of inspiration and a rich blend of
-            creativity.
-          </p>
-          <ul class="footer-list d-flex flex-col flex-wrap">
-            <li class="py-10"><a href="./">Home</a></li>
-            <li class="py-10"><a href="./services.html">Services</a></li>
-            <li class="py-10"><a href="./about.html">About Us</a></li>
-            <li class="py-10"><a href="./contact.html">Contact</a></li>
-          </ul>
+      <div class="container-fluid bg-black color-light py-40">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-lg-2">
+            <div class="col row g-4 order-md-last">
+              <h4 class="font-size-xlg color-light font-special">Want to know more?</h4>
+              <a href="/"
+                ><h5 class="font-size-lg color-white font-special bold">Get in touch</h5></a
+              >
+              <p class="font-size-sm">Copyright © 2023 CoffeeBean, Inc. All rights reserved.</p>
+              <p>
+                I've brewed my vision and crafted my idea from the comfort of my own home, and now
+                I'm ready to serve it to the world with a steaming cup of inspiration and a rich
+                blend of creativity.
+              </p>
+            </div>
+            <div class="col row g-4">
+              <h4 class="font-size-xlg color-light font-special d-none d-md-block">Pages</h4>
+              <ul class="footer-list d-flex flex-col flex-wrap">
+                <li class="py-10"><a href="./">Home</a></li>
+                <li class="py-10"><a href="./services.html">Services</a></li>
+                <li class="py-10"><a href="./about.html">About Us</a></li>
+                <li class="py-10"><a href="./contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
+    <!-- End of Footer -->
+
     <!-- End of Footer -->
 
     <div class="chat bg-accent color-light">
