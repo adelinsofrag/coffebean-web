@@ -19,8 +19,8 @@
   </head>
   <body class="font-body font-size-md bg-white color-black relative">
     <!-- Top Navigation - Sticky component -->
-    <div class="container sticky-top">
-      <nav class="m-2 rounded-4 navbar navbar-expand-lg navbar-light bg-light px-4 py-2 w-">
+    <div class="container sticky-top mt-4">
+      <nav class="rounded-4 navbar navbar-expand-lg navbar-light bg-light px-4 py-2 w-">
         <a class="navbar-brand" href="./">
           <h1><span class="color-warning uppercase bold">Coffee</span>Bean</h1>
         </a>
@@ -69,7 +69,38 @@
     <!-- End of bg banner with title -->
 
     <!-- Main -->
-    <main class="w-100"></main>
+    <main class="container">
+      <div class="py-40 d-flex gap-40">
+        <form class="d-flex flex-col m-auto justify-center gap-20">
+          <div class="form-group-lg">
+            <label for="full-name">Full Name</label>
+            <input type="text" class="form-control" id="full-name" placeholder="e.g. John Doe" />
+          </div>
+          <div class="form-group-lg">
+            <label for="favorite-origin">Favorite Bean Origin</label>
+            <input
+              type="text"
+              class="form-control"
+              id="favorite-origin"
+              placeholder="e.g. Ethiopia"
+            />
+          </div>
+          <div class="form-group-lg">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="terms-and-conditions" />
+              <label class="form-check-label" for="terms-and-conditions">
+                I agree with the <a class="link" href="#">Terms & Conditions</a>
+              </label>
+            </div>
+          </div>
+          <div class="form-group-lg">
+            <label for="your-message">Message</label>
+            <textarea class="form-control" id="your-message" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-lg font-size-md btn-outline-primary color-black">Submit</button>
+        </form>
+      </div>
+    </main>
     <!-- End of Main -->
 
     <!-- Footer -->
