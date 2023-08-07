@@ -23,6 +23,13 @@
 .w-100 {
   width: 100%;
 }
+
+@media (min-width: 576px) {
+  .w-md-50 {
+    width: 50%;
+  }
+}
+
 /* ---------------------------------- */
 /*              Max Width             */
 /* ---------------------------------- */
@@ -36,6 +43,7 @@
     max-width: 90%;
   }
 }
+
 @media (min-width: 1200px) {
   .max-width {
     max-width: 860px;

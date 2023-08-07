@@ -59,49 +59,49 @@
     <main class="w-100">
       <div class="d-flex flex-col">
         <section class="color-black py-40 section">
-          <div class="max-width m-auto d-flex flex-col gap-40">
-            <p>
-              Contact us to learn more about our coffee bean shop and our delicious selection of
-              coffee beans from around the world. Our team is happy to assist with any questions or
-              inquiries you may have.
-            </p>
-          </div>
-          <div class="max-width m-auto d-flex flex-col gap-40">
-            <form class="">
-              <div class="">
-                <label for="full-name">Full Name</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="full-name"
-                  placeholder="e.g. John Doe"
-                />
-              </div>
-              <div class="">
-                <label for="favorite-origin">Favorite Bean Origin</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="favorite-origin"
-                  placeholder="e.g. Ethiopia"
-                />
-              </div>
-              <div class="">
-                <div class="">
-                  <input class="" type="checkbox" id="terms-and-conditions" />
-                  <label class="" for="terms-and-conditions">
+          <div class="max-width m-auto d-flex flex-row gap-40">
+            <div class="w-md-50 m-auto d-flex flex-col">
+              <p>
+                Contact us to learn more about our coffee bean shop and our delicious selection of
+                coffee beans from around the world. Our team is happy to assist with any questions
+                or inquiries you may have.
+              </p>
+            </div>
+            <div class="w-md-50 m-auto d-flex flex-col">
+              <form class="form-group flex-col d-flex">
+                <div class="d-flex flex-col">
+                  <label class="font-size-md" for="full-name">Full Name</label>
+                  <input
+                    type="text"
+                    class="form-control font-size-sm"
+                    id="full-name"
+                    placeholder="e.g. John Doe"
+                  />
+                </div>
+                <div class="d-flex flex-col">
+                  <label class="font-size-md" for="favorite-origin">Favorite Bean Origin</label>
+                  <input
+                    type="text"
+                    class="form-control font-size-sm"
+                    id="favorite-origin"
+                    placeholder="e.g. Ethiopia"
+                  />
+                </div>
+                <div class="d-flex flex-row my-20">
+                  <input class="form-control" type="checkbox" id="terms-and-conditions" />
+                  <label class="font-size-md ml-10" class="" for="terms-and-conditions">
                     I agree with the <a class="link" href="#">Terms & Conditions</a>
                   </label>
                 </div>
-              </div>
-              <div class="">
-                <label for="your-message">Message</label>
-                <textarea class="" id="your-message" rows="3"></textarea>
-              </div>
-              <button type="submit" class="btn btn-lg font-size-md btn-outline-dark color-black">
-                Submit
-              </button>
-            </form>
+                <div class="d-flex flex-col">
+                  <label class="font-size-md" for="your-message">Message</label>
+                  <textarea class="form-control" id="your-message" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-lg font-size-md btn-outline-dark color-black">
+                  Submit
+                </button>
+              </form>
+            </div>
           </div>
         </section>
       </div>
