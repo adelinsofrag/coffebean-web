@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | CoffeeBean</title>
+    <link rel="stylesheet" href="./assets/css/app.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+  </head>
+  <body class="font-body font-size-md bg-light color-black relative">
+    <!-- Top Navigation - Sticky component -->
+    <div class="w-100 bg-light nav-wrapper py-10">
+      <div class="card relative h-100 max-width m-auto d-flex justify-between bg-white">
+        <!-- TODO: replace this with a proper logo -->
+        <a href="/" class="d-flex self-center pl-20 font-special font-size-xs">
+          <h1><span class="color-warning uppercase bold">Coffee</span>Bean</h1>
+        </a>
+        <nav class="desktop-visible nav-container self-center">
+          <ul class="nav-list d-flex flex-row">
+            <li class="px-10"><a href="./services.html">Services</a></li>
+            <li class="px-10"><a href="./about.html">About Us</a></li>
+            <li class="px-10"><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <nav class="mobile-visible nav-container self-center">
+          <details class="nav-toggle">
+            <summary class="nav-toggle-button px-40">
+              <span class="material-symbols-outlined">menu</span>
+            </summary>
+            <ul class="mobile-nav-list nav-list d-flex flex-col bg-white w-100">
+              <li class="px-10 py-20 d-flex mr-auto gap-10">
+                <span class="material-symbols-outlined">home</span>
+                <a href="/">Home</a>
+              </li>
+              <li class="px-10 py-20 d-flex mr-auto gap-10">
+                <span class="material-symbols-outlined">book</span>
+                <a href="./services.html">Services</a>
+              </li>
+              <li class="px-10 py-20 d-flex mr-auto gap-10">
+                <span class="material-symbols-outlined">book</span>
+                <a href="./about.html">About Us</a>
+              </li>
+              <li class="px-10 py-20 d-flex mr-auto gap-10">
+                <span class="material-symbols-outlined">contact_support</span>
+                <a href="./contact.html">Contact</a>
+              </li>
+            </ul>
+          </details>
+        </nav>
+      </div>
+    </div>
+    <!-- End of Top Navigation - Sticky component -->
+
+    <!-- Main -->
+    <main class="w-100">
+      <div class="d-flex flex-col">
+        <section class="color-black py-40 section">
+          <div class="max-width m-auto d-flex flex-col gap-40">
+            <p>
+              Contact us to learn more about our coffee bean shop and our delicious selection of
+              coffee beans from around the world. Our team is happy to assist with any questions or
+              inquiries you may have.
+            </p>
+          </div>
+          <div class="max-width m-auto d-flex flex-col gap-40">
+            <form class="">
+              <div class="">
+                <label for="full-name">Full Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="full-name"
+                  placeholder="e.g. John Doe"
+                />
+              </div>
+              <div class="">
+                <label for="favorite-origin">Favorite Bean Origin</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="favorite-origin"
+                  placeholder="e.g. Ethiopia"
+                />
+              </div>
+              <div class="">
+                <div class="">
+                  <input class="" type="checkbox" id="terms-and-conditions" />
+                  <label class="" for="terms-and-conditions">
+                    I agree with the <a class="link" href="#">Terms & Conditions</a>
+                  </label>
+                </div>
+              </div>
+              <div class="">
+                <label for="your-message">Message</label>
+                <textarea class="" id="your-message" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-lg font-size-md btn-outline-dark color-black">
+                Submit
+              </button>
+            </form>
+          </div>
+        </section>
+      </div>
+    </main>
+    <!-- End of Main -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="section bg-black color-light py-40">
+        <div class="max-width m-auto d-flex flex-col gap-20 font-size-md color-light">
+          <h4 class="font-size-xlg color-light font-special">Want to know more?</h4>
+          <a href="/"><h5 class="font-size-lg color-white font-special bold">Get in touch</h5></a>
+          <p class="font-size-sm">Copyright © 2023 CoffeeBean, Inc. All rights reserved.</p>
+          <p>
+            I've brewed my vision and crafted my idea from the comfort of my own home, and now I'm
+            ready to serve it to the world with a steaming cup of inspiration and a rich blend of
+            creativity.
+          </p>
+          <ul class="footer-list d-flex flex-col flex-wrap">
+            <li class="py-10"><a href="./">Home</a></li>
+            <li class="py-10"><a href="./services.html">Services</a></li>
+            <li class="py-10"><a href="./about.html">About Us</a></li>
+            <li class="py-10"><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- End of Footer -->
+
+    <div class="chat bg-accent color-light">
+      <span class="material-symbols-outlined">contact_support</span>
+    </div>
+  </body>
+</html>
